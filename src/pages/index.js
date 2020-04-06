@@ -15,11 +15,6 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
-      <Link to="/about/">About</Link>
-      <Container>
-        <h1>About CSS Modules</h1>
-        <p>CSS Modules are cool</p>
-      </Container>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
