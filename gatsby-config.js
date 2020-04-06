@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Atsuki Kurihara`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
